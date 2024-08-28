@@ -15,7 +15,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: "https://prismatic-crostata-25a9f0.netlify.app",
+        origin: "https://cooolchat.netlify.app",
       }
 });
 
